@@ -1,0 +1,46 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:a4d861ac-9870-57ac-bfc2-4ec7bd0d53f4",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-07T08:34:16Z",
+    "component": {
+      "type": "application",
+      "name": "IRDM",
+      "version": "326edab7b31d",
+      "bom-ref": "pkg:generic/anticloud/IRDM@326edab7b31d",
+      "purl": "pkg:generic/anticloud/IRDM@326edab7b31d",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "326edab7b31d196cddc442d59a26566839537bd1"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/the-anticloud/anticloud-irdm.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "pelican-sitemap",
+      "version": ">=1.2.1",
+      "purl": "pkg:pypi/pelican-sitemap@1.2.1",
+      "bom-ref": "pypi/pelican-sitemap@>=1.2.1"
+    }
+  ]
+}
